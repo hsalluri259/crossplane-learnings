@@ -1,0 +1,12 @@
+apiVersion: s3.aws.m.upbound.io/v1beta1
+kind: Bucket
+metadata:
+  namespace: crossplane-system
+  generateName: crossplane-bucket-
+spec:
+  forProvider:
+    region: us-west-2
+  # needed in order to bucket using correct aws credentials
+  providerConfigRef:
+    name: irsa-providerconfig
+    kind: ProviderConfig
