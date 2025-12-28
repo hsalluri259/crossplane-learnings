@@ -1,0 +1,7 @@
+apiVersion: example.crossplane.io/v1
+kind: App
+metadata:
+  namespace: test
+  name: my-app
+spec:
+  image: 194156363232.dkr.ecr.us-west-2.amazonaws.com/docker/kennethreitz/httpbin
