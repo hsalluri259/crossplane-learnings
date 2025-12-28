@@ -4,4 +4,4 @@ metadata:
   namespace: test
   name: my-app
 spec:
-  image: 194156363232.dkr.ecr.us-west-2.amazonaws.com/docker/kennethreitz/httpbin
+  image: 123456.dkr.ecr.us-west-2.amazonaws.com/docker/kennethreitz/httpbin
